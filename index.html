@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Selected Value</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <form>
+            <label for="name">Framework:</label>
+            <input type="text" id="name" placeholder="Enter a framework" autocomplete="off">
+
+            <button type="button" id="btnAdd" onclick="add()">Add</button>
+
+            <label for="list">Framework List:</label>
+            <select id="list" name="list" multiple>       
+            
+            </select>
+            <button type="button" id="btnRemove" onclick="remove()">Remove Selected Framework</button>
+            <button type="button" id="btnEdit" onclick="edit()">Edit Selected Framework</button>
+        </form>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
